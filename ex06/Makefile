@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98
 DEPENDANCIES = -MMD -MP
 NO_DIR = --no-print-directory
 MAKE := $(MAKE) -j $(NO_DIR)
-NAME = harl_filter
+NAME = harlFilter
 
 # Debugging flags
 CFLAGS_DEBUG = -Wall -Wextra -g3 -D DEBUG=1 -std=c++98
@@ -28,13 +28,12 @@ P_INC = ./
 #############################################################################################
 # Headers
 INC = \
-	Zombie.hpp
+	Harl.hpp
 
 # Source files
 SRC = \
 	main.cpp \
-	Zombie.cpp \
-	zombieHorde.cpp
+	Harl.cpp \
 
 LIBS = \
 
