@@ -6,7 +6,7 @@
 /*   By: ppontet <ppontet@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/02 12:38:07 by ppontet           #+#    #+#             */
-/*   Updated: 2025/03/02 15:53:37 by ppontet          ###   ########lyon.fr   */
+/*   Updated: 2025/03/02 16:37:38 by ppontet          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,6 @@ int main(int argc, char **argv)
 	}
 
 	size_t pos;
-	size_t new_pos;
 
 	pos = 0;
 	while (getline(fs_src, str))

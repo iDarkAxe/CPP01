@@ -1,6 +1,6 @@
 .PHONY : all clean fclean re bonus clean-lib clean-bin clean-obj debug debug-cc debug-print
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98 -Wno-unused-variable
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 DEPENDANCIES = -MMD -MP
 NO_DIR = --no-print-directory
 MAKE := $(MAKE) -j $(NO_DIR)
