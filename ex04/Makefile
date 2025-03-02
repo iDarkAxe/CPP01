@@ -1,6 +1,6 @@
 .PHONY : all clean fclean re bonus clean-lib clean-bin clean-obj debug debug-cc debug-print
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -Wno-unused-variable
 DEPENDANCIES = -MMD -MP
 NO_DIR = --no-print-directory
 MAKE := $(MAKE) -j $(NO_DIR)
@@ -28,13 +28,10 @@ P_INC = ./
 #############################################################################################
 # Headers
 INC = \
-	Zombie.hpp
 
 # Source files
 SRC = \
 	main.cpp \
-	Zombie.cpp \
-	zombieHorde.cpp
 
 LIBS = \
 
