@@ -28,13 +28,10 @@ P_INC = ./
 #############################################################################################
 # Headers
 INC = \
-	Zombie.hpp
 
 # Source files
 SRC = \
-	main.cpp \
-	Zombie.cpp \
-	zombieHorde.cpp
+	main.cpp 
 
 LIBS = \
 
