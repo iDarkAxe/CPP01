@@ -6,13 +6,12 @@
 /*   By: ppontet <ppontet@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/02 12:38:07 by ppontet           #+#    #+#             */
-/*   Updated: 2025/05/18 10:57:28 by ppontet          ###   ########lyon.fr   */
+/*   Updated: 2025/07/01 11:07:09 by ppontet          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <fstream>
-void replaceStrings(std::fstream &fileOut, std::string s1, std::string s2, std::string input);
 
 int main(int argc, char **argv)
 {
